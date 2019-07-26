@@ -1,0 +1,25 @@
+{
+  "name": "utils",
+  "version": "0.1.0",
+  "description": "some basic helper functions",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ursamajorsc/utils.git"
+  },
+  "author": "UMSC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ursamajorsc/utils/issues"
+  },
+  "homepage": "https://github.com/ursamajorsc/utils#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "glob": "^7.1.4"
+  }
+}
