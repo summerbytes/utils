@@ -4,7 +4,7 @@
   "description": "some basic helper functions",
   "main": "index.js",
   "scripts": {
-    "build": "babel src --out-dir dist"
+    "build": "rimraf ./lib && babel src --out-dir lib"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
-    "glob": "^7.1.4"
+    "glob": "^7.1.4",
+    "rimraf": "^2.6.3"
   }
 }
